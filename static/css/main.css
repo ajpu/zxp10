@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.xui-100-100{
+    width: 100vw;
+    height: 100vh;
+}
+
+.xui-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.xui-flex-column{
+    flex-direction: column;
+}
+
+.xui-form{
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 2px 5px 10px 2px grey;
+    padding: 20px;
+}
