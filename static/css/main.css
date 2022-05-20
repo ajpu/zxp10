@@ -11,8 +11,6 @@ body{
 .xui-flex{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .xui-flex-column{
@@ -34,6 +32,15 @@ body{
 }
 
 .xui-form>input[type=submit]{
-    margin: 20px 0;
-    height: 50px;
+    margin: 20px 0px;
+    height: 48px;
+    background-color: #07c160;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius:8px;
+    padding: 8px 24px;
+    box-sizing:border-box;
 }
