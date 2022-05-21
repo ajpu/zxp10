@@ -6,13 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/static/css/main.css">
+    <style>
+        .xui-flex{
+            align-items: center;
+        }
+
+        .xui-form{
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body class="xui-flex xui-flex-column xui-100-100">
     <form class="xui-form">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="submit">
+        <div class="xui-form-title">
+            <h1>Form</h1>
+        </div>
+
+        <div class="xui-form-input">
+            <div class="xui-form-item">
+                <label for="test">Form1</label>
+                <input type="text" id="test">
+            </div>
+
+            <div class="xui-form-item">
+                <label for="test">Form2</label>
+                <input type="text" id="test">
+            </div>
+        </div>
+
+        <div class="xui-form-button">
+            <input type="submit">
+            <input type="reset">
+        </div>
     </form>
 </body>
 </html>
