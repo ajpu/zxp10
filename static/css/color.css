@@ -1,0 +1,47 @@
+.xui-bg-main{
+    background-color: #F2F3F5;
+}
+
+.xui-bg-dark{
+    background-color: #F0F2F5;
+}
+
+.xui-bg-light{
+    background-color: #F5F7FA;
+}
+
+.xui-bg-brand{
+    background-color: #409EFF;
+}
+
+.xui-bg-success{
+    background-color: #67C23A;
+}
+
+.xui-bg-warning{
+    background-color: #E6A23C;
+}
+
+.xui-bg-danger{
+    background-color: #F56C6C;
+}
+
+.xui-bg-info{
+    background-color: #909399;
+}
+
+.xui-text-primary{
+    color: #303133;
+}
+
+.xui-text-regular{
+    color: #606266;
+}
+
+.xui-text-secondary{
+    color: #909399;
+}
+
+.xui-text-palceholder{
+    color: #A8ABB2;
+}
