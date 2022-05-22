@@ -6,17 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/static/css/main.css">
-    <style>
-        .xui-flex{
-            align-items: center;
-        }
-
-        .xui-form{
-            margin-top: 10px;
-        }
-    </style>
 </head>
-<body class="xui-flex xui-flex-column xui-100-100">
+<body>
     <form class="xui-form">
         <div class="xui-form-title">
             <h1>Form</h1>
@@ -24,13 +15,34 @@
 
         <div class="xui-form-input">
             <div class="xui-form-item">
-                <label for="test">Form1</label>
-                <input type="text" id="test">
+                <label for="test">Text</label>
+                <input type="text" id="test" maxlength="10">
             </div>
 
             <div class="xui-form-item">
-                <label for="test">Form2</label>
-                <input type="text" id="test">
+                <label for="test">Password</label>
+                <input type="password" maxlength="100">
+            </div>
+
+            <div class="xui-form-item">
+                <label for="test">Radio</label>
+                <input type="radio">1
+                <input type="radio">2
+                <input type="radio">3
+                <input type="radio">4
+            </div>
+
+            <div class="xui-form-item">
+                <label for="test">Checkbox</label>
+                <input type="Checkbox">1
+                <input type="Checkbox">2
+                <input type="Checkbox">3
+                <input type="Checkbox">4
+            </div>
+
+            <div class="xui-form-item">
+                <label for="test">Textarea</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
         </div>
 
