@@ -24,7 +24,8 @@ body{
     width: 320px;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    border: 1px solid #F5F7FA;
+    background-color: #FFFFFF;
 }
 
 .xui-form>div{
@@ -33,7 +34,7 @@ body{
 }
 
 .xui-form>.xui-form-title{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #F5F7FA;
     height: 30px;
     display: flex;
     align-items: center;
@@ -48,6 +49,7 @@ body{
     height: 20px;
     width: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .xui-form-close::before,
@@ -95,14 +97,13 @@ body{
 }
 
 .xui-form>.xui-form-button{
-    border-top: 1px solid;
+    border-top: 1px solid #F5F7FA;
 }
 
 .xui-form>.xui-form-button>input{
     height: 40px;
     flex: 1 1 0;
-    background-color: #fff;
-    border: 1px solid #000;
+    border: 1px solid #F5F7FA;
 }
 
 .xui-form>.xui-form-button>input:not(:nth-child(1)){
