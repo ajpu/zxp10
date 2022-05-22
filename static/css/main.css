@@ -44,9 +44,28 @@ body{
     margin: 0;
 }
 
-.xui-form>.xui-form-title>.xui-form-close{
-    width: 20px;
+.xui-form-close {
     height: 20px;
+    width: 20px;
+    position: relative;
+}
+
+.xui-form-close::before,
+.xui-form-close::after {
+    position: absolute;
+    content: ' ';
+    background-color: #000;
+    left: 10px;
+    width: 1px;
+    height: 20px;
+}
+
+.xui-form-close::before {
+    transform: rotate(45deg);
+}
+
+.xui-form-close::after {
+    transform: rotate(-45deg);
 }
 
 .xui-form>.xui-form-input{
