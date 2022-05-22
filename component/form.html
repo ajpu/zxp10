@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/static/css/main.css">
+    <style>
+        .xui-form-close {
+            position: relative;
+        }
+
+        .xui-form-close::before,
+        .xui-form-close::after {
+            position: absolute;
+            content: ' ';
+            background-color: #000;
+            left: 10px;
+            width: 1px;
+            height: 20px;
+        }
+
+        .xui-form-close::before {
+            transform: rotate(45deg);
+        }
+
+        .xui-form-close::after {
+            transform: rotate(-45deg);
+        }
+    </style>
 </head>
-<body class="xui-flex" style="justify-content: center;">
+<body>
     <form class="xui-form">
         <div class="xui-form-title">
             <h2>Form</h2>
@@ -17,35 +40,36 @@
         <div class="xui-form-input">
             <div class="xui-form-item">
                 <label for="test">Text</label>
-                <input type="text" id="test" maxlength="10">
+                <input type="text" id="test">
             </div>
+
             <div class="xui-form-item">
                 <label for="test">Password</label>
-                <input type="password" maxlength="100">
+                <input type="password">
             </div>
 
             <div class="xui-form-item">
                 <label for="test">Radio</label>
                 <div class="xui-flex xui-form-group">
                     <div class="xui-form-group-item">
-                        <input type="radio">
-                        <span>Alpha</span>
+                        <input type="radio" name="radio" id="alpha">
+                        <label for="alpha">Alpha</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="radio">
-                        <span>Beta</span>
+                        <input type="radio" name="radio" id="beta">
+                        <label for="beta">Beta</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="radio">
-                        <span>Cigma</span>
+                        <input type="radio" name="radio" id="cigma">
+                        <label for="cigma">Cigma</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="radio">
-                        <span>Delta</span>
+                        <input type="radio" name="radio" id="delta">
+                        <label for="delta">Delta</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="radio">
-                        <span>Epsino</span>
+                        <input type="radio" name="radio" id="epsion">
+                        <label for="epsino">Epsino</label>
                     </div>
                 </div>
             </div>
@@ -54,24 +78,24 @@
                 <label for="test">Checkbox</label>
                 <div class="xui-flex xui-form-group">
                     <div class="xui-form-group-item">
-                        <input type="checkbox">
-                        <span>Alpha</span>
+                        <input type="checkbox" id="alpha">
+                        <label for="alpha">Alpha</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="checkbox">
-                        <span>Beta</span>
+                        <input type="checkbox" id="beta">
+                        <label for="beta">Beta</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="checkbox">
-                        <span>Cigma</span>
+                        <input type="checkbox" id="cigma">
+                        <label for="cigma">Cigma</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="checkbox">
-                        <span>Delta</span>
+                        <input type="checkbox" id="delta">
+                        <label for="delta">Delta</label>
                     </div>
                     <div class="xui-form-group-item">
-                        <input type="checkbox">
-                        <span>Epsino</span>
+                        <input type="checkbox" id="epsino">
+                        <label for="epsino">Epsino</label>
                     </div>
                 </div>
             </div>
