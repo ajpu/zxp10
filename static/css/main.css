@@ -1,3 +1,11 @@
+*{
+    user-select: none;
+}
+
+body{
+    padding: 0;
+}
+
 .xui-100-100{
     width: 100vw;
     height: 100vh;
@@ -26,10 +34,20 @@
 
 .xui-form>.xui-form-title{
     border-bottom: 1px solid;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.xui-form>.xui-form-title>h1{
+.xui-form>.xui-form-title>h2{
     margin: 0;
+}
+
+.xui-form>.xui-form-title>.xui-form-close{
+    background-color: red;
+    width: 20px;
+    height: 20px;
 }
 
 .xui-form>.xui-form-input{
@@ -50,6 +68,11 @@
 .xui-form-item>input{
     height: 30px;
     text-indent: 5px;
+}
+
+.xui-form-item>textarea{
+    resize: none;
+    padding: 5px;
 }
 
 .xui-form>.xui-form-button{

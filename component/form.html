@@ -7,10 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="/static/css/main.css">
 </head>
-<body>
+<body class="xui-flex" style="justify-content: center;">
     <form class="xui-form">
         <div class="xui-form-title">
-            <h1>Form</h1>
+            <h2>Form</h2>
+            <div class="xui-form-close"></div>
         </div>
 
         <div class="xui-form-input">
@@ -26,14 +27,21 @@
 
             <div class="xui-form-item">
                 <label for="test">Radio</label>
-                <input type="radio">1
-                <input type="radio">2
-                <input type="radio">3
-                <input type="radio">4
+                <div style="display: flex;">
+                    <div>
+                        <input type="radio" name="radio">
+                        <span>radio 1</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="radio">
+                        <span>radio 2</span>
+                    </div>
+                </div>
             </div>
 
             <div class="xui-form-item">
                 <label for="test">Checkbox</label>
+
                 <input type="Checkbox">1
                 <input type="Checkbox">2
                 <input type="Checkbox">3
@@ -42,7 +50,7 @@
 
             <div class="xui-form-item">
                 <label for="test">Textarea</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea></textarea>
             </div>
         </div>
 
