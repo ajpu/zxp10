@@ -72,6 +72,7 @@ body{
 .xui-form-item>textarea{
     resize: none;
     padding: 5px;
+    height: 100px;
 }
 
 .xui-form>.xui-form-button{
