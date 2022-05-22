@@ -89,3 +89,20 @@ body{
 .xui-form>.xui-form-button>input:not(:nth-child(1)){
     margin-left: 10px;
 }
+
+.xui-form-group{
+    flex-wrap: wrap;
+}
+
+.xui-form-group-item{
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.xui-form-group-item>input{
+    margin: 0;
+    margin-right: 5px;
+}
