@@ -21,7 +21,7 @@ body{
 }
 
 .xui-form{
-    width: 320px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     border: 1px solid #F5F7FA;
@@ -104,6 +104,7 @@ body{
     height: 40px;
     flex: 1 1 0;
     border: 1px solid #F5F7FA;
+    cursor: pointer;
 }
 
 .xui-form>.xui-form-button>input:not(:nth-child(1)){
