@@ -24,8 +24,10 @@ body{
     width: 400px;
     display: flex;
     flex-direction: column;
+    border-radius: 3px;
     border: 1px solid #F5F7FA;
     background-color: #FFFFFF;
+    box-shadow: 5px 5px 12px 0px #F0F2F5;
 }
 
 .xui-form>div{
